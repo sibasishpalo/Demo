@@ -36,8 +36,10 @@ Before we start we need to have Docker running with ElasticSearch v7.9.2
       "reviewer":"User3"
   }'
   ```
-3. Check if the documents are available in the index or not 
-  ```curl --location --request GET 'http://localhost:9200/reviews/_search'```
+3. Check if the documents are available in the index or not
+  ```
+  curl --location --request GET 'http://localhost:9200/reviews/_search'
+  ```
   
 # Using the App
 1. Download and load this project into Intellij or any other IDE
