@@ -47,4 +47,4 @@ Before we start we need to have Docker running with ElasticSearch v7.9.2
 3. start the application
 4. fire the requests using ```curl --location --request GET 'http://localhost:8080/test/query?reviewer=User1'```
 5. Abvoe call should print a message on the console ```Fetching reviewer information from ES for Id User1```
-6. we can verify by firing same request again and again to verify its loading from the cache(expiration duration is 10 Seconds), in case of loading from cache it will not print the above log message in the console.
+6. we can verify by firing same request again and again to verify its loading from the cache(expiration duration is defined in src/main/resources/application.properties), in case of loading from cache it will not print the above log message in the console.
