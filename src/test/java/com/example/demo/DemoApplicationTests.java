@@ -10,6 +10,12 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 
+/*
+ references taken from
+ https://dzone.com/articles/integration-testing-in-spring-boot-1
+ https://howtodoinjava.com/spring-boot2/testing/spring-integration-testing/
+ */
+
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class DemoApplicationTests {
 
